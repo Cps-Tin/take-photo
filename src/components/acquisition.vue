@@ -164,11 +164,11 @@ export default {
         return false;
       }
       let tmp = [];
-      for (let i = 0, len = this.fileList.length; i < len; i++) {
-        if (this.fileList[i] == this.fileList[index]) {
-          tmp.push(this.fileList[i]);
-        }
-      }
+      //for (let i = 0, len = this.fileList.length; i < len; i++) {
+      //  if (this.fileList[i] == this.fileList[index]) {
+      //    tmp.push(this.fileList[i]);
+      //  }
+      //}
       this.fileList = tmp;
       this.fileIds.splice(index, 1);
     },
